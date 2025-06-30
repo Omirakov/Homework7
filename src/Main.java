@@ -24,9 +24,7 @@ public class Main {
             System.out.print(a + " ");
         }
         System.out.println();
-        int b = 11;
-        while (b > 1) {
-            b--;
+        for (int b = 10; b > 0; b--) {
             System.out.print(b + " ");
         }
         System.out.println();
@@ -97,11 +95,11 @@ public class Main {
         System.out.println("Задача 7");
         System.out.println();
 
-        int friday = 6;
-         while(friday <= 31) {
-             friday += 7;
-             System.out.println("Сегодня пятница, " + friday + " число, необходимо подготовить отчет!");
-        }
+        int friday = 2;
+            while (friday <= 31) {
+                System.out.println("Сегодня пятница, " + friday + " число, необходимо подготовить отчет!");
+                friday += 7;
+            }
 
         System.out.println();
         System.out.println("Задача 8");
